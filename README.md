@@ -9,7 +9,7 @@ In this project, we leveraged the power of the Stable Diffusion pre-trained mode
 To facilitate your use of the provided code, we've included a detailed guide. Due to the heavyweight nature of the model, it isn't included in the repository. To fine-tune and train the model, follow these steps:
 
 1. Create an empty folder named `class_data` within the `Data` folder. The program will generate images in this folder during training.
-2. Add a folder named `model` within the `Code` folder.
+2. Add an empty folder named `model` within the `Code` folder.
 
 For those without a GPU, we recommend opening `FinetuneDreamBooth.ipynb` with Google Colab to train the model efficiently. The trained model will be saved for future use.
 
